@@ -1,13 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom";
+ import React, {Component, useState} from "react";
 import '../styles/App.css';
 
 const App = () => {
   return (
-    <div id="root">
-      <p>I am learning React. My life is getting better.</p>
+    <div id="main">
+    <p>I am learning React. My life is getting better.</p>
     </div>
   )
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+
+export default App;
